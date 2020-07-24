@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549c7c8e360f8c445aae7b96718eb605, type: 3}
+  m_Name: BuildingData
+  m_EditorClassIdentifier: 
+  buildings:
+  - nome: Friburgo
+    custo: 10000
+    slot: 0
+    prefab: {fileID: 1422189782840242823, guid: 6d92bfcb4d27cef49a8659b247765d08,
+      type: 3}
+    img: {fileID: 21300000, guid: 749b81fda0eb0ce49ba9f2a184eedbdf, type: 3}
+    tempoDeConstrucao: 5
+  - nome: "Pal\xE1cio Boa Vista"
+    custo: 8000
+    slot: 0
+    prefab: {fileID: 892649498252547498, guid: 8dcd4bc78f1ff8443ac66798fe012f6a, type: 3}
+    img: {fileID: 21300000, guid: b28722a22fdb00d488bf92294ef841ce, type: 3}
+    tempoDeConstrucao: 100
+  - nome: Engenho
+    custo: 1600
+    slot: 0
+    prefab: {fileID: 2250534213295045512, guid: 56d01332e5013504aa2a026d5ed2f08d,
+      type: 3}
+    img: {fileID: 21300000, guid: 8ea1842243a85c8488cc97e6a1b18c42, type: 3}
+    tempoDeConstrucao: 40
+  - nome: "Subsist\xEAncia"
+    custo: 1200
+    slot: 0
+    prefab: {fileID: 2848429324373556539, guid: 157ee056f2dcdf74db402679b6a5ebba,
+      type: 3}
+    img: {fileID: 21300000, guid: 7cd8ca01f96527d42b96506cc49ef5a7, type: 3}
+    tempoDeConstrucao: 30
+  - nome: Cais
+    custo: 800
+    slot: 1
+    prefab: {fileID: 2283983983521218932, guid: 9edf9b462918cc844a0616104e6a60fb,
+      type: 3}
+    img: {fileID: 21300000, guid: 626053cda301f994db36bbf806651e29, type: 3}
+    tempoDeConstrucao: 100
+  - nome: Moradia
+    custo: 600
+    slot: 0
+    prefab: {fileID: 2642145221317846676, guid: d1405ca0c24cab24e98a315ef80d4f97,
+      type: 3}
+    img: {fileID: 21300000, guid: dd4f480d2577ce649923363c84dc9eb1, type: 3}
+    tempoDeConstrucao: 60
+  - nome: "Com\xE9rcio"
+    custo: 1200
+    slot: 1
+    prefab: {fileID: 5598879614760829321, guid: d07b1a6ed1777a344ae7560216fc4bcc,
+      type: 3}
+    img: {fileID: 21300000, guid: fd5e30e56f5e10b499ba6f2cd98b8833, type: 3}
+    tempoDeConstrucao: 30
+  - nome: Estruturas culturais
+    custo: 4000
+    slot: 0
+    prefab: {fileID: 8598693691283961289, guid: 21e6f3258d7ee9f45bcad96387cb034d,
+      type: 3}
+    img: {fileID: 21300000, guid: 3876539b458e4604a987920ea518dc28, type: 3}
+    tempoDeConstrucao: 80
+  - nome: Forte
+    custo: 3000
+    slot: 0
+    prefab: {fileID: 790487211902757464, guid: 14ed74462841c6e4eb4ced3e07d07850, type: 3}
+    img: {fileID: 21300000, guid: 41b3f893f3d6251458bd303b1a3b27b5, type: 3}
+    tempoDeConstrucao: 80
